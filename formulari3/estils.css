@@ -1,0 +1,21 @@
+body{
+  background-color: cyan;
+}
+h1{
+  text-align: center;
+}
+
+#contenedor{
+  width:200px;
+  margin: 0 auto;
+
+}
+
+input{
+  margin: 10px;
+
+}
+#envia{
+  margin-left: 55px;
+  font-family: monospace;
+}

@@ -1,0 +1,47 @@
+@media screen and (min-width: 425px) and (max-width: 767px){
+  body{
+    background-color: green;
+  }
+
+  @font-face {
+  font-family: "Montserrat" sans-serif;
+  src: url(Montserrat.ttf);
+  }
+
+  p {
+  font-family: "Monserrat", sans-serif;
+  }
+
+  #contenedor {
+  background-color: pink;
+  height: 400px;
+
+  }
+  .cuadrados {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 27px;
+  }
+
+  #cuadrado1{
+   background-color: red;
+
+  }
+  #cuadrado2{
+   background-color: blue;
+
+  }
+
+  #cuadrado3{
+   background-color:#BCFF54;
+
+  }
+  #cuadrado4{
+   background-color:#1FEB79;
+
+  }
+
+  #titol{
+    background-color: #11D2EC;
+  }

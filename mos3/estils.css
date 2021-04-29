@@ -1,0 +1,23 @@
+body{
+  background-color: white;
+  }
+div {
+  background-color: red;
+  margin:25px;
+  width:300px;
+  height:300px;
+  font-size: 50px;
+  text-align: center;
+  line-height: -150px;
+  border-radius: 15px;
+  border: dashed white 5px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size:75px;
+
+}
+#uno {
+  border-radius: 25px
+}

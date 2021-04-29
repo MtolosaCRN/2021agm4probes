@@ -1,0 +1,151 @@
+body{
+  background-color: #F1F1F1;
+}
+
+
+h1{
+  text-align: center;
+}
+
+#contenedor{
+  margin: 0 auto;
+  width: 1875px;
+  height: 890px;
+}
+
+.cuadrados{
+  height: 150px;
+  width: 200px;
+  background-color: #A7A7A7;
+  text-align: center;
+  margin: 70px;
+  margin-left: 105px;
+  float: left;
+  top: 100px;
+  right: 650px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  line-height: 150px;
+}
+
+#cuadrado1{
+  background-image: url(img/keylornavas.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado2{
+  background-image: url(img/maestrokimpembe.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado3{
+  background-image: url(img/marquinos.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado4{
+  background-image: url(img/verrati.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado5{
+  background-image: url(img/florenzi.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado6{
+  background-image: url(img/kurzawa.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado7{
+  background-image: url(img/mbappe.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado8{
+  background-image: url(img/gueye.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado9{
+  background-image: url(img/paredes.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado10{
+  background-image: url(img/neymar.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado11{
+  background-image: url(img/icardi.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado12{
+  background-image: url(img/dimaria.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado13{
+  background-image: url(img/sergiorico.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado14{
+  background-image: url(img/draxler.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}
+#cuadrado15{
+  background-image: url(img/rafina.jpg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
+  background-size: cover;
+  background-size: contain;
+}

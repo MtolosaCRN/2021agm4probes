@@ -1,0 +1,36 @@
+body{
+  background-color: cyan;
+}
+
+h1{
+  text-align: center;
+}
+
+#contenedor{
+  width:250px;
+  background-color: yellow;
+  margin: 0 auto;;
+
+}
+
+.cajitas{
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  
+
+}
+
+.cajitas, p{
+  font-family: monospace;
+}
+
+
+::-webkit-input-placeholder { color: blue; }
+
+
+input{
+  margin: 10px;
+
+}

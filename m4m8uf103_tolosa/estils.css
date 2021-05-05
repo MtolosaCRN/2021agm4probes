@@ -1,0 +1,180 @@
+body{
+  background-color: grey;
+}
+
+
+#cabeza{
+width: 600px;
+height: 600px;
+background-color: #FFCD9F;
+clip-path: polygon(0 0, 100% 0, 100% 30%, 97% 68%, 70% 100%, 29% 100%, 3% 67%, 0% 30%);
+position: absolute;
+top:230px;
+left:600px;
+}
+
+#pelo{
+  width: 720px;
+  height: 600px;
+  background-color: #7B4F45;
+  clip-path: polygon(50% 4%, 94% 3%, 100% 14%, 96% 26%, 77% 26%, 60% 26%, 38% 26%, 7% 33%, 18% 10%);
+  position: absolute;
+  top:80px;
+  left:520px;
+}
+
+#labios{
+  width: 200px;
+  height: 200px;
+  background-color: #BB7788;
+  clip-path: polygon(26% 61%, 50% 69%, 71% 62%, 100% 70%, 75% 85%, 51% 83%, 23% 84%, 0 71%);
+  position:absolute;
+  top:550px;
+  left:790px;
+}
+
+#ojo1{
+  width: 170px;
+  height: 170px;
+  background-color: white;
+  clip-path: polygon(63% 20%, 100% 32%, 78% 45%, 39% 50%, 18% 52%, 0 36%, 25% 21%);
+  position: absolute;
+  top:330px;
+  left:950px;
+}
+
+#ojo2{
+  width: 170px;
+  height: 170px;
+  background-color: white;
+  clip-path: polygon(63% 20%, 100% 32%, 78% 45%, 39% 50%, 18% 52%, 0 36%, 25% 21%);
+  position: absolute;
+  top:330px;
+  left:650px;
+}
+
+.flip-horizontal {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph;
+  filter: fliph;
+}
+
+#pupila1{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  clip-path: circle(50% at 50% 50%);
+  position:absolute;
+  top:365px;
+  left:730px;
+}
+
+#pupila2{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  clip-path: circle(50% at 50% 50%);
+  position:absolute;
+  top:365px;
+  left:1000px;
+}
+
+#ceja1{
+  width: 200px;
+  height: 200px;
+  background-color:#7B4F45;
+  clip-path: polygon(50% 4%, 94% 3%, 100% 14%, 93% 22%, 69% 17%, 46% 19%, 26% 26%, 0 41%, 18% 10%);
+  position: absolute;
+  top:300px;
+  left:620px;
+}
+
+#ceja2{
+  width: 200px;
+  height: 200px;
+  background-color:#7B4F45;
+  clip-path: polygon(50% 4%, 94% 3%, 100% 14%, 93% 22%, 69% 17%, 46% 19%, 26% 26%, 0 41%, 18% 10%);
+  position: absolute;
+  top:300px;
+  left:950px;
+}
+.flip-horizontal {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph;
+  filter: fliph;
+}
+
+#nariz{
+  width: 200px;
+  height: 200px;
+  background-color: #DDB189;
+  clip-path: polygon(37% 0, 13% 50%, 70% 50%, 70% 58%, 2% 59%, 28% 0);
+  position: absolute;
+  top:450px;
+  left:800px;
+}
+#cristalgafa1{
+  width: 200px;
+  height: 200px;
+  background-color:white;
+  clip-path: polygon(2% 0, 97% 0, 98% 30%, 95% 65%, 69% 92%, 28% 92%, 3% 66%, 2% 30%);
+  position: absolute;
+  top:300px;
+  left:650px;
+  opacity: 50%;
+}
+
+#cristalgafa2{
+  width: 200px;
+  height: 200px;
+  background-color:white;
+  clip-path: polygon(2% 0, 97% 0, 98% 30%, 95% 65%, 69% 92%, 28% 92%, 3% 66%, 2% 30%);
+  position: absolute;
+  top:300px;
+  left:930px;
+  opacity: 50%;
+}
+
+#palogafa{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  clip-path: polygon(50% 20%, 100% 39%, 50% 25%, 0 39%);
+  position: absolute;
+  top:350px;
+  left:840px;
+}
+
+#palogafa2{
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  clip-path: polygon(42% 19%, 100% 16%, 48% 24%, 0 60%);
+  position: absolute;
+  top:330px;
+  left:1120px;
+}
+#palogafa3{
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  clip-path: polygon(42% 19%, 100% 16%, 48% 24%, 0 60%);
+  position: absolute;
+  top:330px;
+  left:590px;
+}
+
+.flip-horizontal {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph;
+  filter: fliph;
+}

@@ -1,153 +1,81 @@
-body{
-  background-color: #F1F1F1;
+body {
+   background-color: cyan;
+
 }
 
-a{
-  color: white;
+#contenidor {
+  width: 800px;
+  height: 600px;
+  background-color: pink;
+  margin:0 auto;
 }
-h1{
-  text-align: center;
+ #nav{
+   height: 100px;
+   background-color: red;
+ }
+.boletes:hover{
+  opacity: 50%;
+  transform: scale(1.5);
 }
-
-#contenedor{
-  margin: 0 auto;
-  width: 1875px;
-  height: 890px;
-}
-
-.cuadrados{
-  height: 150px;
-  width: 200px;
-  background-color: #A7A7A7;
-  text-align: center;
-  margin: 70px;
-  margin-left: 105px;
+.boletes{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
   float: left;
-  top: 100px;
-  right: 650px;
-  font-size: 50px;
+  font-size: 25px;
   color: white;
-  font-weight: bold;
-  line-height: 150px;
+  text-align: center;
+  line-height: 100px;
+
+}
+#boleta1{
+  background-color: purple;
+  margin-left: 200px
 }
 
-#cuadrado1{
-  background-image: url(img/keylornavas.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+#boleta2{
+  background-color: navy;
 }
-#cuadrado2{
-  background-image: url(img/maestrokimpembe.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+
+#boleta3{
+  background-color: orange;
 }
-#cuadrado3{
-  background-image: url(img/marquinos.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+
+#boleta4{
+  background-color: yellow;
 }
-#cuadrado4{
-  background-image: url(img/verrati.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+.caixes{
+  width: 400px;
+  height: 400px;
+  float: left;
+  font-family: sans-serif;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 400px
 }
-#cuadrado5{
-  background-image: url(img/florenzi.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+#caixa1{
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  float: left;
 }
-#cuadrado6{
-  background-image: url(img/kurzawa.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+#caixa2{
+  width: 400px;
+  height: 400px;
+  background-color: orange;
+  float: left;
 }
-#cuadrado7{
-  background-image: url(img/mbappe.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado8{
-  background-image: url(img/gueye.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado9{
-  background-image: url(img/paredes.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado10{
-  background-image: url(img/neymar.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado11{
-  background-image: url(img/icardi.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado12{
-  background-image: url(img/dimaria.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado13{
-  background-image: url(img/sergiorico.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado14{
-  background-image: url(img/draxler.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
-}
-#cuadrado15{
-  background-image: url(img/rafina.jpg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  background-size: contain;
+#footer{
+  background-color: yellow;
+  height: 100px;
+  width: 800px;
+  float: left;
+  clear: both;
+  font-family: fantasy;
+  font-size: 35px;
+  text-align: center;
+  line-height: 100px
 }

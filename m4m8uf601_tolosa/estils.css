@@ -1,0 +1,32 @@
+body {
+  background-color: cyan;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.cuadrat {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: pink;
+}
+
+
+#uno {
+  background-color: red;
+}
+
+
+p {
+font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+#dos {
+  background-color: green;
+}
+#tres {
+  background-color: blue;
+}
+#cuatro {
+  background-color: grey;
+}

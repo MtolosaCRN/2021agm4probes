@@ -1,0 +1,227 @@
+body{
+  background-color: #7193A8;
+}
+#sol{
+  width: 220px;
+  height: 220px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left:700px;
+  box-shadow: 0 0 100px 60px #FFF74D;
+  animation-duration: 3s;
+  animation-name: sol;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes sol {
+  from {
+    top: 500px;
+  }
+  to{
+    left: 350px;
+    top: 250;
+  }
+}
+#montana2{
+  width: 400px;
+  height: 500px;
+  background-color: #9C580B;
+  border-radius: 50% 50% 49% 51% / 100% 100% 0% 0% ;
+  position: fixed;
+  top:200px;
+  left:200px;
+}
+#montana4{
+  width: 400px;
+  height: 500px;
+  background-color: #9C580B;
+  clip-path: polygon(52% 0, 62% 50%, 80% 99%, 0 99%, 24% 31%);
+  position: absolute;
+  top:400px;
+  left:800px;
+}
+
+#montana1{
+  width: 400px;
+  height: 500px;
+  background-color: #9C501A;
+  border-radius: 50% 50% 49% 51% / 100% 100% 0% 0% ;
+  position: absolute;
+  top:400px;
+  left:20px;
+}
+
+#montana3{
+  width: 400px;
+  height: 500px;
+  background-color: #9C501A;
+  border-radius: 50% 50% 49% 51% / 100% 100% 0% 0% ;
+  position: absolute;
+  top:400px;
+  left:500px;
+}
+
+
+#fachada{
+  width: 200px;
+  height: 300px;
+  background-color: #D5D5D5;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position: fixed;
+  top:500px;
+  left:400px;
+}
+
+#chimenea{
+  width: 30px;
+  height: 100px;
+  background-color: #D5D5D5;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  top:350px;
+  left:530px;
+}
+
+#tejadoo{
+  width: 200px;
+  height: 200px;
+  background-color: #C0C0C0;
+  clip-path: polygon(49% 21%, 0% 100%, 100% 100%);
+  position: absolute;
+  top:300px;
+  left:400px;
+}
+
+
+#ventana1{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position:absolute;
+  top:565px;
+  left:430px;
+  opacity: 60%;
+}
+
+#ventana2{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position:absolute;
+  top:565px;
+  left:515px;
+  opacity: 60%;
+}
+
+#puerta{
+  width: 70px;
+  height: 100px;
+  background-color: #636363;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position:absolute;
+  top:700px;
+  left:463px;
+}
+#suelo{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  position:fixed;
+  top:800px;
+  left:0px;
+}
+
+#paloflor{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  clip-path: polygon(63% 26%, 65% 34%, 65% 45%, 66% 74%, 79% 100%, 72% 100%, 62% 75%, 60% 44%, 61% 34%);
+  position: absolute;
+  top:650px;
+  left:800px;
+}
+#flor{
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  clip-path: polygon(0% 15%, 23% 29%, 15% 0%, 85% 0%, 71% 29%, 100% 15%, 100% 85%, 73% 77%, 85% 100%, 15% 100%, 24% 78%, 0% 85%);
+  border-radius: 50%;
+  position: absolute;
+  top:660px;
+  left:855px;
+  animation-duration: 2s;
+  animation-name: flor2;
+  animation-iteration-count: infinite;
+}
+#circuloflor{
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top:685px;
+  left:880px;
+}
+@keyframes flor{
+     to { transform: rotate(360deg); }
+   }
+
+#paloflor2{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  clip-path: polygon(63% 26%, 65% 34%, 65% 45%, 66% 74%, 79% 100%, 72% 100%, 62% 75%, 60% 44%, 61% 34%);
+  position: absolute;
+  top:650px;
+  left:200px;
+}
+#flor2{
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  clip-path: polygon(0% 15%, 23% 29%, 15% 0%, 85% 0%, 71% 29%, 100% 15%, 100% 85%, 73% 77%, 85% 100%, 15% 100%, 24% 78%, 0% 85%);
+  border-radius: 50%;
+  position: absolute;
+  top:660px;
+  left:255px;
+  animation-duration: 2s;
+  animation-name: flor2;
+  animation-iteration-count: infinite;
+
+
+}
+#circuloflor2{
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top:685px;
+  left:280px;
+}
+@keyframes flor2{
+     to { transform: rotate(360deg); }
+   }
+#estrella{
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top:200px;
+  left:1000px;
+  animation: estrella 6s infinite;
+
+}
+@keyframes estrella {
+ 0% { opacity: 0;}
+
+ 100% {opacity: 100;}
+
+}

@@ -1,0 +1,123 @@
+body {
+   background-color: grey;
+
+}
+#cabecera{
+  width: 1900px;
+  height: 100px;
+  background-color: #edc406;
+  margin-right:auto;
+  margin-left: auto;
+  padding-top: 0px;
+  border-top: 0px;
+  background-image: url(img/logo.jpeg);
+  background-repeat:no-repeat;
+  background-position: 10px 0px;
+  background-size: contain;
+}
+#contenedor{
+  width: 1600px;
+}
+.h1{
+  padding-top: 0px;
+  margin-top: 0px;
+  border-top: 0px;
+  height: 30px;
+  font-family: serif;
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 90px;
+}
+#caja1{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(img/rf.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+#caja2{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(img/lachica.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  margin-left: 500px;
+
+}
+#caja3{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(img/alaska.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  margin-left: 800px;
+}
+#caja4{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(img/secretos.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+}
+#caja5{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(img/tequila.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  float:left;
+}
+#caja6{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(lobo/rf.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+}
+#caja7{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(levantar/rf.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+}
+#caja8{
+  background-color:#ffff;
+  height: 600px;
+  width: 350px;
+  margin: 70px;
+  border: 4px;
+  background-image: url(mr/rf.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+}
